@@ -37,6 +37,9 @@ public class HelloSpringJDBCApp01 {
 	// spring-jdbc
 	// spring-tx
 	
+	// 이 순서 반드시 익혀둘것
+	// main -> service -> DAO
+	// 			   (SungJuk)
 	
 	public static void main(String[] args) {
 		ApplicationContext ctx =
